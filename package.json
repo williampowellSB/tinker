@@ -79,6 +79,7 @@
     "karma-phantomjs-launcher": "latest",
     "karma-requirejs": "latest",
     "karma-script-launcher": "latest",
+    "karma-teamcity-reporter": "latest",
     "mocha": "latest",
     "require-dir": "latest",
     "requirejs": "latest",
