@@ -23,7 +23,7 @@ module.exports = function(config) {
       'packages/custom/i18n/public/assets/lib/angular-sanitize/angular-sanitize.min.js',
       'packages/custom/i18n/public/assets/lib/i18next/i18next.min.js',
       'packages/custom/i18n/public/assets/lib/ng-i18next/dist/ng-i18next.min.js',
-      'packages/core/users/public/assets/lib/angular-jwt/dist/angular-jwt.min.js',
+      'packages/core/users/public/assets/lib/angular-jwt/dist/angular-jwt.min.js'
     ]),
 
     // list of files to exclude
@@ -31,7 +31,7 @@ module.exports = function(config) {
 
     // test results reporter to use
     // possible values: 'dots', 'progress', 'junit', 'growl', 'coverage'
-    reporters: ['progress', 'coverage'],
+    reporters: ['progress', 'coverage', 'teamcity'],
 
     // coverage
     preprocessors: {
